@@ -29,7 +29,7 @@ public class LoginTest {
 	@Test
 	public void navigateBack() {
 		Dr.navigate().back();
-		Assert.assertEquals(LP.getTit(),"Facebook - log in or sign up");
+		Assert.assertEquals(LP.getTit(),"Facebook – log in or sign up");
 		System.out.println("Everything Working Fine");
 	}
 	@AfterClass

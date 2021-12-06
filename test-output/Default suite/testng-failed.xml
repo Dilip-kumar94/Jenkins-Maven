@@ -6,9 +6,8 @@
       <class name="com.dagger.training.Jenkins.LoginTest">
         <methods>
           <include name="sysSetup"/>
-          <include name="getUrl"/>
+          <include name="navigateBack"/>
           <include name="tearDown"/>
-          <include name="clickForgotLink"/>
         </methods>
       </class> <!-- com.dagger.training.Jenkins.LoginTest -->
     </classes>
