@@ -26,6 +26,11 @@ public class LoginTest {
 		LP.clickLink("Forgotten password?");
 		Assert.assertEquals(LP.getTit(),"Forgotten Password | Can't Log In | Facebook");
 	}
+	@Test
+	public void navigateBack() {
+		Dr.navigate().back();
+		Assert.assertEquals(LP.getTit(),"Facebook – log in or sign up");
+	}
 	@AfterClass
 	public void tearDown() {
 		Dr.quit();
