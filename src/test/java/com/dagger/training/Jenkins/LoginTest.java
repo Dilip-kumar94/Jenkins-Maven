@@ -30,7 +30,7 @@ public class LoginTest {
 	public void navigateBack() {
 		Dr.navigate().back();
 		Assert.assertEquals(LP.getTit(),"Facebook – log in or sign up");
-		System.out.println("Everything Working Fine");
+		System.out.println("Everything Working Fine- Not yet");
 	}
 	@AfterClass
 	public void tearDown() {
